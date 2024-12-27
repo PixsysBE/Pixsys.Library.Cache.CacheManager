@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Pixsys.Library.Cache.CacheManager</id>
+    <title>Pixsys.Library.Cache.CacheManager</title>
+    <description>A cache manager</description>
+    <authors>Sylvain Signore</authors>
+    <version>0.0.0.0</version>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/PixsysBE/Pixsys.Library.Cache.CacheManager</projectUrl>
+    <dependencies>
+    <group targetFramework="net8.0">
+      <dependency id="CacheManager.SystemRuntimeCaching" version="2.0.0-beta-1629" />
+    </group>
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="bin\Release\**\*.dll" target="lib" />
+    <file src="bin\Release\**\*.xml" target="lib" />
+    <file src="..\..\..\README.md" target="README.md" />
+  </files>
+</package>
